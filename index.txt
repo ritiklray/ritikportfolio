@@ -1,0 +1,16 @@
+Ritik Ray — UI/UX Designer
+
+Header: Home · Resume · Services · Portfolio · Blog · Contact
+
+Hero: Ritik Ray — UI/UX Designer & Web, Flutter Developer
+One-line intro: I design and build simple, useful digital products.
+
+Services: Website Design · SEO · eCommerce · Branding · Marketing
+
+Skills (examples): Design 90% · Web Design 95% · Branding 80%
+
+Portfolio: Lab.001 (Website), Aer Agency (Website), Joker Card (UX)
+
+Blog: Recent articles — short titles and dates
+
+Footer: Contact — ritiklray@gmail.com · San Francisco, CA

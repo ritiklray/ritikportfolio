@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Ritik Ray - UI UX Designer</title>
+  <meta name="title" content="Ritik Ray - UI/UX Designer">
+  <meta name="description" content="This is a personal portfolio made by ritikray">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#home" class="logo">
+        <img src="./assets/images/logo.svg" width="100" height="20" alt="Ritik home">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" aria-label="Go to Home section">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" aria-label="Go to Expertise section">About</a>
+          </li>
+
+          <li>
+            <a href="#expertise" class="navbar-link" aria-label="Go to Expertise section">Expertise</a>
+          </li>
+
+          <li>
+            <a href="#skills-cards" class="navbar-link" aria-label="Go to Skills cards section">Skills</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" aria-label="Go to Portfolio section">Portfolio</a>
+          </li>
+
+          
+
+          <li>
+            <a href="#contact" class="navbar-link" aria-label="Go to Contact section">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section id="home" class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Ritik Ray</h1>
+
+            <p class="hero-subtitle">
+              UI/UX Designer & Web, Flutter Developer
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/hero-banner.jpg" width="800" height="800" alt="Ritik Ray" class="w-100">
+            </div>
+
+            <p class="section-text">
+              <!-- Hi, I’m Ritik Ray — a UI/UX designer and web & Flutter developer who loves creating simple and useful
+              digital products. -->
+            </p>
+
+            <a href="https://drive.google.com/file/d/1LbJ5YeJuWSNe5wNeBpXJGy0yWjJWBJdM/view?usp=sharing"
+              class="btn has-before" target="_blank" rel="noopener noreferrer">
+              <span class="span">Download CV</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section id="about" class="section about" aria-labelledby="about-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <div>
+              <p class="section-subtitle">About</p>
+              <h2 class="h2 section-title" id="about-label">Who I am</h2>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <p class="section-text">
+              Hi, I’m Ritik Ray, a UI/UX designer and web & Flutter developer who loves creating simple, useful, and
+              engaging digital products. With skills in both frontend development and Flutter, I combine design and
+              technology to build experiences that are clean, functional, and user-friendly. Over time, I’ve honed my
+              craft through designathons, becoming a 3× Designathon Winner and a 2× Finalist at IIT Guwahati and Goa,
+              which strengthened my problem-solving and creative thinking. I’m always curious to learn, explore, and
+              build meaningful solutions that make a real impact.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        
+        - #SERVICE
+      -->
+
+
+      <section id="expertise" class="service" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                My Expertise
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Expertise</h2>
+            </div>
+
+            <!-- <p class="section-text">
+              I design and build websites and apps that are clear, attractive, and user-friendly, bringing ideas to life
+              in the best way.
+            </p> -->
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Website Design</h3>
+
+                  <p class="card-text">
+                    I design websites that are modern, user-friendly, and responsive, making sure your visitors have the
+                    best experience.
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <!-- <a href="#" class="layer-link" aria-label="More about my website design service"></a> -->
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="phone-portrait-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">App Design</h3>
+
+                  <p class="card-text">
+                    I create mobile app designs that are simple, engaging, and easy to navigate, giving users a smooth
+                    experience.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <!-- <a href="#" class="layer-link" aria-label="More about my Apps Design service"></a> -->
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Graphic Design</h3>
+
+                  <p class="card-text">
+                    I craft creative graphics for brands, social media, and digital campaigns that look professional and
+                    eye-catching.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <!-- <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a> -->
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Frontend Dev</h3>
+
+                  <p class="card-text">
+                    I build websites and interfaces with clean code, ensuring fast, responsive, and interactive web
+                    experiences.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <!-- <a href="#" class="layer-link" aria-label="More about my Frontend Dev service"></a> -->
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="phone-portrait-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Flutter Dev
+                  </h3>
+
+                  <p class="card-text">
+                    I develop cross-platform apps with Flutter that work smoothly on both Android and iOS, bringing your
+                    app ideas to life.
+                  </p>
+
+                  <span class="text-lg card-number">05</span>
+
+                  <!-- <a href="#" class="layer-link" aria-label="More about my Flutter Dev service"></a> -->
+
+                </div>
+              </li>
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #SKILLS CARDS (NEW)
+      -->
+
+  <section id="skills-cards" class="section skills-cards" aria-labelledby="skills-cards-label">
+        <div class="container">
+          <p class="section-subtitle" id="skills-cards-label">Skills</p>
+          <h2 class="h2 section-title">Core Skills</h2>
+
+          <div class="skills-cards-grid">
+            <article class="info-card">
+              <h3 class="h3 card-title">Skills</h3>
+              <ul class="tag-list">
+                <li class="tag">Web Design</li>
+                <li class="tag">Mobile Application Design</li>
+                <li class="tag">Wireframing</li>
+                <li class="tag">Prototyping</li>
+                <li class="tag">UX Research</li>
+              </ul>
+            </article>
+            <article class="info-card">
+              <h3 class="h3 card-title">Tools</h3>
+              <ul class="tag-list">
+                <li class="tag">Figma</li>
+                <li class="tag">Adobe XD</li>
+                <li class="tag">Motiff</li>
+                <li class="tag">Stitch</li>
+                <li class="tag">Banani</li>
+                <li class="tag">VS Code</li>
+                <li class="tag">Android Studio</li>
+              </ul>
+            </article>
+            <article class="info-card">
+              <h3 class="h3 card-title">Language</h3>
+              <ul class="tag-list">
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">Java Script</li>
+                <li class="tag">DART</li>
+
+              </ul>
+            </article>
+          </div>
+      </section>
+
+      <!-- - #ACHIEVEMENTS -->
+
+      <section class="section achievements" aria-labelledby="achievements-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="achievements-label">My Achievements</p>
+
+          <h2 class="h2 section-title">Awards & Recognition</h2>
+
+          <ul class="achievements-list">
+            <li>
+              <strong>Winning the Design Dilemma Competition</strong> — Bharati Vidyapeeth's College of Engineering, New
+              Delhi (02/2025)
+            </li>
+            <li>
+              <strong>1st Runner Up — Pixel Designathon</strong> — Google Developer Groups On Campus (Atharva college of
+              engineering) (02/2025)
+            </li>
+            <li>
+              <strong>Winning the UI/UX Redesign Rally</strong> — Tech Algeria 2024 (Pillai College of Engineering)
+              (09/2024)
+            </li>
+            <li>
+              <strong>2× Designathon Finalist</strong> — IIT Guwahati and IIT Goa
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #EDUCATION
+      -->
+
+      <section id="education" class="section education" aria-labelledby="education-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <div>
+              <p class="section-subtitle">My Education</p>
+              <h2 class="h2 section-title" id="education-label">Education</h2>
+            </div>
+
+
+          </div>
+
+          <div class="service-card">
+            <div class="card-icon">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3 card-title">Bachelor of Computer Applications (BCA)</h3>
+
+            <p class="card-text">
+              Sahyog College of IT, Thane<br>
+              2023–2026<br>
+              CGPA: 9.5
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #Shape the Future
+      -->
+
+  <section id="shape-the-future" class="section skills" aria-label="shape the future">
+        <div class="container">
+
+          <p class="section-subtitle">Shape the Future</p>
+
+          <h2 class="h2 section-title">Turning Ideas into Digital Reality.</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+                I design and build websites and apps that are simple, modern, and easy to use. My aim is to turn ideas
+                into digital products that people enjoy using.
+              </p>
+
+              <p class="section-text">
+                From design to development, I focus on creating things that look good and work smoothly. Whether it’s a
+                website, an app, or graphics — I keep it clean, creative, and useful.
+              </p>
+
+              <a href="mailto:ritiklray@gmail.com" class="btn has-before"
+                aria-label="Email me at ritiklray@gmail.com">ritiklray@gmail.com</a>
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Web Design</p>
+
+                    <data class="progress-value" value="99">99%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 99%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">App Design</p>
+
+                    <data class="progress-value" value="99">99%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 99%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Web Dev</p>
+
+                    <data class="progress-value" value="75">75%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 75%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Flutter Dev</p>
+
+                    <data class="progress-value" value="65">65%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 65%;"></div>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section id="portfolio" class="portfolio" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Our Works</p>
+
+            <h2 class="h2 section-title">Portfolio</h2>
+          </div>
+
+          <p class="section-text">
+            Here’s a glimpse of my journey in design and development. One of my proudest achievements is my
+            Designathon-winning project, which stood out as the best project for its creativity, simplicity, and
+            real-world impact. This work reflects my passion for solving problems with clean design and smart technology
+            — a perfect blend of UI/UX, frontend, and Flutter.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-1.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">EatAi</h3>
+
+                  <p class="card-text">Ai-Powered Nutritional App</p>
+                </div>
+
+                <a href="https://www.behance.net/gallery/218778049/EatAI-Your-Smart-AI-Powered-Nutrition-App"
+                  class="layer-link" target="_blank" rel="noopener noreferrer"
+                  aria-label="Open DishaMarg project on Behance"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-2.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Charmer</h3>
+
+                  <p class="card-text">AI-Powered Assistant | Dating & Social Interaction</p>
+                </div>
+
+                <a href="https://www.behance.net/gallery/222175691/Charmer-AI-Powered-Dating-Assistant"
+                  class="layer-link" target="_blank" rel="noopener noreferrer"
+                  aria-label="Open DishaMarg project on Behance"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-3.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">DishaMarg</h3>
+
+                  <p class="card-text">AI-powered learning path</p>
+                </div>
+
+                <a href="https://www.behance.net/gallery/221630481/DishaMarg-AI-Powered-Learning-Path-Platform"
+                  class="layer-link" target="_blank" rel="noopener noreferrer"
+                  aria-label="Open DishaMarg project on Behance"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-4.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Serenity</h3>
+
+                  <p class="card-text">A Personalized Safe Space for Women
+                  </p>
+                </div>
+
+                <a href="https://www.behance.net/gallery/219153331/Serenity-A-Personalized-Wellness-App-for-Women"
+                  class="layer-link" target="_blank" rel="noopener noreferrer"
+                  aria-label="Open DishaMarg project on Behance"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-5.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">DocuMindAI+</h3>
+
+                  <p class="card-text">AI-Powered Legal & Compliance Assistant</p>
+                </div>
+
+                <a href="https://www.behance.net/gallery/235864199/DocuMind-AI-(AI-Powered-Legal-Compliance-Assistant)"
+                  class="layer-link" target="_blank" rel="noopener noreferrer"
+                  aria-label="Open DishaMarg project on Behance"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-6.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">DigiClaim.ai</h3>
+
+                  <p class="card-text">Simplifying Insurance Claims with AI</p>
+                </div>
+
+                <a href="https://www.behance.net/gallery/225679795/DigiClaimai-AI-Powered-Insurance-ClaimsPlatform"
+                  class="layer-link" target="_blank" rel="noopener noreferrer"
+                  aria-label="Open DishaMarg project on Behance"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section id="contact" class="section contact" aria-labelledby="contact-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <div>
+              <p class="section-subtitle" id="contact-label">Contact</p>
+              <h2 class="h2 section-title">Get in touch</h2>
+            </div>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-details">
+              <h3 class="h3 card-title">Contact Details</h3>
+              <p class="card-text"><strong>Email:</strong> ritiklray@gmail.com</p>
+              <p class="card-text"><strong>Phone:</strong> +91 8850914204</p>
+              <p class="card-text"><strong>Location:</strong> Mumbai, India</p>
+            </div>
+
+            <div class="contact-form-wrapper">
+              <form id="contact-form" action="https://formsubmit.co/ritiklray@gmail.com" method="POST" target="_blank">
+                <!-- Formsubmit will forward submissions to ritiklray@gmail.com -->
+                <input type="hidden" name="_subject" value="Portfolio contact from website">
+                <input type="hidden" name="_captcha" value="false">
+                <div class="input-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="input-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="input-group">
+                  <label for="phone">Phone</label>
+                  <input type="tel" id="phone" name="phone">
+                </div>
+
+
+                <div class="input-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <div class="input-group">
+                  <button type="submit" class="btn has-before">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer id="contact" class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:ritiklray@gmail.com" class="footer-link">ritiklray@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Locations</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Mumbai, India</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+
+        <li>
+          <a href="https://www.linkedin.com/in/ritik-ray" class="social-link" target="_blank" rel="noopener noreferrer">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.behance.net/ritikray5" class="social-link" target="_blank" rel="noopener noreferrer">
+            <ion-icon name="logo-behance"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/ritixhh?igsh=MXB3N2xqOXVhZTV5" class="social-link" target="_blank"
+            rel="noopener noreferrer">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/ritiklray" class="social-link" target="_blank"
+            rel="noopener noreferrer">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+
+
+      </ul>
+
+    </div>
+  </footer>
+
+  <noscript>
+    <style>
+      .preloader {
+        display: none !important;
+      }
+
+      body {
+        overflow: auto !important;
+      }
+    </style>
+  </noscript>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
+
+
